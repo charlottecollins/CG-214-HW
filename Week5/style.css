@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+     body {
+    background-color: lightblue;
+}
+
+.reasons {
+	
+	background-color: gray;
+	
+}
+
+li {
+	font-size: 20px;
+	
+	
+}
+h1 {
+    color: mediumslateblue;
+    text-align: center;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 20px;
+}
+ 
+p a 
+{color: fuchsia;
+}
+.form {background-color: azure}
+        
+#lol {border: medium #332F2F;
+	border-style: solid
+	
+
+}
+/*omg this looks so ugly I hope I get better at this*/
