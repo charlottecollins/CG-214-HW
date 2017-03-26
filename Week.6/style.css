@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.main {font-family: 'Cabin Sketch', cursive;
+	font-size: 60px;
+}
+
+#footer {
+	text-align: center;
+	font-family: 'rubik';
+}
+
+#first {background-image: url(media/grass3.jpg); background-size: cover; background-repeat: no-repeat;}
+
+#second {background-image: url(media/oceann.jpg); background-size: cover; background-repeat: no-repeat; }
+
+
+#third {background-image: url(media/mountainn.jpg); background-size: cover; background-repeat: no-repeat}
+
+#fourth {background-image: url(media/walk.jpg); background-size: contain; background-repeat: no-repeat;}
+
+#second {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+#second:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+#third {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+#third:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
+
+#fourth {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+#fourth:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
