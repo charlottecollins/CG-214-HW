@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+ 
+#header {max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+
+#food {font-size: 24px;}
+
+button {background-color: white;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+	border-radius: 2px 2px 2px 2px ;
+}
+
+/*
+li {
+    display: inline;
+}
+
+.app {background-color: dodgerblue;
+		color: white;
+	border-radius: 25px;
+	padding: 8px;
+}
+*/
+
+section { 
+ 
+    width: 300px;
+    display: inline-block; /*float was causing you problems so i changed it to display inline-block, see grid ex from class*/
+    margin: 15px;
+    min-height: 300px;
+	clear: both;
+}
+ 
+/*made a class called image-grid so you can have the grid in a container and then center that on the page*/
+.image-grid {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	clear: both;
+}
+ 
+ 
+ 
+button.load {
+    border-radius: 50%;
+    background-color: white;
+    color: dodgerblue;
+    border: 2px solid #6889E1;
+    height: 100px;
+    width: 100px;
+    display: block; /*you need to change the display to block in order to use the margin: auto to center*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
