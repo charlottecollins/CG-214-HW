@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+ 
+* {
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+ 
+#header {max-width: 100%;
+    height: auto;
+    width: auto\9;
+
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+#instagram {
+  max-width:100%;
+  margin: 0 auto;
+  background: white;
+}
+
+.top {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+
+
+.piece {
+  /*  width: 200px;
+    height: 200px;   */
+    background: white;
+    padding-right: 260px;
+	padding-left: 0px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.piece2 {
+	 background: white;
+    padding-right: 0px;
+	padding-left: 0px;
+    margin: 10px;
+	display: inline-block;
+	
+}
+
+
+
+#container {
+  max-width:500px;
+  margin: 0 auto;
+  background: white;
+}
+
+.heading {
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.item {
+
+    background: white;
+    padding: 3px;
+    margin: 3px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+    display: inline-block;
+}
+
+
+/* I would have liked the move the rows closer together vertically but I'm happy I got inline block to work!*/
+
+
+
+
+#food {font-size: 24px;}
+
+button {background-color: white;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+	border-radius: 2px 2px 2px 2px ;
+}
+
+/*
+li {
+    display: inline;
+}
+
+.app {background-color: dodgerblue;
+		color: white;
+	border-radius: 25px;
+	padding: 8px;
+}
+*/
+
+section { 
+ 
+    width: 300px;
+    display: inline-block; 
+    margin: 15px;
+    min-height: 300px;
+	clear: both;
+}
+ 
+/*made a class called image-grid so you can have the grid in a container and then center that on the page*/
+.image-grid {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+	clear: both;
+}
+ 
+ 
+ 
+button.load {
+    border-radius: 50%;
+    background-color: white;
+    color: dodgerblue;
+    border: 2px solid #6889E1;
+    height: 100px;
+    width: 100px;
+    display: block; /*you need to change the display to block in order to use the margin: auto to center*/
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 50px;
+     
+}
