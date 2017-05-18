@@ -1,0 +1,241 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: .075em;
+}
+
+
+
+.parallax {
+    background-image: url(media/logo3.png);
+	image-resolution: from-image;
+    min-height: 200px; 
+    background-attachment: fixed;
+    /*background-position: center*/
+    background-repeat: no-repeat;
+    background-size: auto;
+	
+}
+
+#head{
+	position: relative;
+	float: left;
+}
+
+.navbar a {
+  float: right;
+  font-family: 'Allerta Stencil', sans-serif;
+  display: inline-block;
+  color: black; 
+  padding-right: 60px;
+ /* padding-bottom: 15px;*/
+  text-align: center;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.scrollingdiv {
+    height:600px;
+    background-color:white;
+    font-size:36px;
+    color:black;
+}
+
+.parallax2 {    
+	background-image: url(media/hello.jpg);
+	background-size: cover;
+    min-height: 700px; 
+	margin-bottom: 0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+	clear: none;
+	z-index: -1;
+
+}
+
+.text {position: absolute;
+	z-index: 0;
+}
+
+.container {
+    position: relative;
+	background-color: black;
+	margin-top: 0;
+	float:left;
+	clear:none;  
+}
+
+.topright {
+
+    position: absolute;
+    top: 760px;
+    right: -90px;
+    
+}
+
+.slides {
+	position: absolute;
+	
+	
+}
+
+.slides {height: 700px;}
+
+@keyframes cf4FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/*can not figure out how to make slideshow faster, this was supposed to be a fade in and out animation*/
+#cf4a img:nth-of-type(1) {
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(2) {
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(3) {
+  animation-delay: 2s;
+}
+#cf4a img:nth-of-type(4) {
+  animation-delay: 0;
+}
+
+
+
+/*
+.effect2 {
+    padding-top: 40px;
+
+    transition: transform 1s;
+}
+
+.effect2:hover{ 
+    
+    transform: translate(10px, 10px);
+
+}*/
+
+/*I had use one of your effects before, but it was glitchy so I went with the off-the page navigation*/
+
+#mySidenav a {
+    position: absolute; 
+    right: -100px; /*I got the tabs to go off screen, but there's a side scroll now to white space that I don't know how to get rid off*/
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 220px; 
+    text-decoration: none; 
+    font-size: 20px; 
+	text-align: right;
+    color: white; 
+    border-radius: 5px 0px 0px 5px; 
+}
+
+#mySidenav a:hover {
+    right: 0; 
+}
+
+
+#photos {
+    top: 20px;
+    background-color: black;
+}
+
+#motion {
+    top: 80px;
+    background-color: black; 
+}
+
+#about {
+    top: 140px;
+    background-color: black;
+}
+
+
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/*overlay to website*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container2:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  
+  -ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    top: 20px; 
+    right: 600px; 
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; 
+    outline: none; 
+ 
+	 
+    cursor: pointer; 
+    padding: 5px; 
+    border-radius: 10px; 
+}
+
+#myBtn:hover {
+	
+   opacity: .5;  
+}
